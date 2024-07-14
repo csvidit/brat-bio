@@ -21,7 +21,6 @@ const ListLinkSimple = (props: {
           {props.children}
         </span>
       </div>
-      {/* <PiArrowCircleUpRightFill className="text-brat-600 group-hover:text-citron-400 group-focus:text-citron-400 transition-all duration-200 ease-in-out"/> */}
     </Link>
   );
 };
