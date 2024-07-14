@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const FeaturedLink = (props: {
+const FeaturedTextLink = (props: {
   href: string;
   children: React.ReactNode;
   ariaLabel: string;
@@ -22,4 +22,4 @@ const FeaturedLink = (props: {
   );
 };
 
-export default FeaturedLink;
+export default FeaturedTextLink;
